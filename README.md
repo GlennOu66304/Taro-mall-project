@@ -26,12 +26,19 @@ npm install
 ```
 npm run assetsServe
 ```
-### run the project in the h5 or wechat miniprogram:  
+### 7.run the project in the h5 or wechat miniprogram:  
 open a new window, put the code into the below
 ```
 source ~/.bash_profile  
 nvm use v12.16.0 
 npm run dev:h5 
+npm run dev:weapp
+```
+### 8.import the project into the wechat tool and input the wechat app id, wait for the project begin:  
+```
+source ~/.bash_profile   
+nvm use v12.16.0  
+npm run dev:weapp 
 ```
 [Taro 多版本共存问题](https://nervjs.github.io/taro/docs/GETTING-STARTED/)   
 [使用nvm管理node与npm版本](https://juejin.im/post/6844903861157642247)   
