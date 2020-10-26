@@ -1,16 +1,16 @@
 ## run the project in the local:  
-1. clone the project:  
+1.clone the project:  
 ```
 git clone https://gitee.com/quxiaoming/taro-mall.git 
 ```
-2. open the project in the VScode;  
+2.open the project in the VScode;  
 ### 3. install the node and build the project into the nodev 12.16.0   
 1.install the node:  
 ```
 source ~/.bash_profile  
 nvm install v12.16.0
 ```
-2. change the project into the node 12.16.0 :
+2.change the project into the node 12.16.0 :
 ```
 nvm use v12.16.0
 ```
